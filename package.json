@@ -1,0 +1,21 @@
+{
+  "name": "promage-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app/app.js",
+    "start": "NODE_ENV=production node app/app.js",
+    "ts-watch": "npx tsc -w",
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.28"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.5"
+  }
+}
